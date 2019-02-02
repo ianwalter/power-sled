@@ -1,6 +1,7 @@
 workflow "CI" {
   on = "push"
-  resolves = ["Lint", "Build Site"] # TODO: Add back Test once GA supports Puppeteer.
+  resolves = ["Lint"] # TODO: Add back Test once GA supports Puppeteer and Build
+  # Site once site code is refactored.
 }
 
 action "Install" {
