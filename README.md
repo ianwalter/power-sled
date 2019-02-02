@@ -2,6 +2,8 @@
 > A JavaScript micro-library for adding slide-down menu functionality to
 > elements
 
+[![npm page][npmImage]][npmUrl]
+
 # Installation
 
 ```console
@@ -53,6 +55,8 @@ Apache 2.0 with Commons Clause - See [LICENSE][licenseUrl]
 
 Created by [Ian Walter](https://iankwalter.com)
 
+[npmImage]: https://img.shields.io/npm/v/@ianwalter/power-sled.svg
+[npmUrl]: https://www.npmjs.com/package/@ianwalter/power-sled
 [sledUrl]: https://github.com/ianwalter/sled
 [licenseUrl]: https://github.com/ianwalter/power-sled/blob/master/LICENSE
 
