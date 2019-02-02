@@ -7,7 +7,7 @@
   "iife": "dist/power-sled.iife.js",
   "scripts": {
     "start": "webpack-dev-server",
-    "pretest": "dist --name PowerSled",
+    "pretest": "dist --name PowerSled --babel",
     "test": "ava"
   },
   "repository": {
@@ -25,7 +25,7 @@
     "@ianwalter/sled": "^2.0.0"
   },
   "devDependencies": {
-    "@ianwalter/dist": "^1.5.0-0",
+    "@ianwalter/dist": "^1.5.0-1",
     "@ianwalter/puppeteer-helper": "^1.0.0",
     "autoprefixer": "^9.1.1",
     "ava": "^1.2.0",
