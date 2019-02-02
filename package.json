@@ -26,6 +26,9 @@
     "url": "https://github.com/ianwalter/power-sled/issues"
   },
   "homepage": "https://github.com/ianwalter/power-sled#readme",
+  "files": [
+    "dist"
+  ],
   "dependencies": {
     "@ianwalter/sled": "^2.1.0"
   },
