@@ -1,6 +1,5 @@
 # @ianwalter/power-sled
-> A JavaScript micro-library for adding slide-down menu functionality to
-> elements
+> A JavaScript micro-library for adding dropdown menu functionality to elements
 
 [![npm page][npmImage]][npmUrl]
 
