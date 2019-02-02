@@ -85,7 +85,7 @@ test('close on clicking other body element', withPage, async (t, page) => {
   t.is(height, 0)
 })
 
-test('close when began open', withPage, async (t, page) => {
+test('target click close when menu began open', withPage, async (t, page) => {
   await page.evaluate(() => {
     const span = document.createElement('span')
     span.innerHTML = 'Move Me'
@@ -104,6 +104,33 @@ test('close when began open', withPage, async (t, page) => {
   })
 
   await page.click('a')
+
+  const height = await page.evaluate(() => {
+    return document.querySelector('p').getBoundingClientRect().height
+  })
+
+  t.is(height, 0)
+})
+
+test('body click close when menu began open', withPage, async (t, page) => {
+  await page.evaluate(() => {
+    const span = document.createElement('span')
+    span.innerHTML = 'Move Me'
+    const a = document.createElement('a')
+    a.innerHTML = 'Click Me'
+    const p = document.createElement('p')
+    p.innerHTML = `
+      Lorem ipsum is placeholder text commonly used in the graphic, print, and
+      publishing industries for previewing layouts and visual mockups.
+    `
+    document.body.appendChild(span)
+    document.body.appendChild(a)
+    document.body.appendChild(p)
+    const sled = new PowerSled(a, p)
+    document.body.addEventListener('click', sled.toggle())
+  })
+
+  await page.click('span')
 
   const height = await page.evaluate(() => {
     return document.querySelector('p').getBoundingClientRect().height

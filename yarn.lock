@@ -420,10 +420,10 @@
   dependencies:
     puppeteer "^1.11.0"
 
-"@ianwalter/sled@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@ianwalter/sled/-/sled-2.0.0.tgz#cb42313f331a39f55d1f1c081fa68a13f78b7f28"
-  integrity sha512-leq0ANiWcIWw6rGcywtkx0/fTpQRgenbeLjNcy07RUYeJLWekQHYlhEXokAulj+Cy3v7/Nae6rxZstpOwiVXCw==
+"@ianwalter/sled@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@ianwalter/sled/-/sled-2.1.0.tgz#5515992ab8c5c206d8f59485acf7f0f60689bda5"
+  integrity sha512-cmzMZfmuTRbfdGZqD0DeMH3p+WRNRlTttADis3ChaLdq80oUMNsr4dF95uBdHYhInBrM0Bd5KgrI33Akd2ot9w==
 
 "@types/estree@0.0.39":
   version "0.0.39"

@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/ianwalter/power-sled#readme",
   "dependencies": {
-    "@ianwalter/sled": "^2.0.0"
+    "@ianwalter/sled": "^2.1.0"
   },
   "devDependencies": {
     "@ianwalter/dist": "^1.5.0-1",
