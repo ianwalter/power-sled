@@ -7,6 +7,7 @@
   "iife": "dist/power-sled.iife.js",
   "scripts": {
     "start": "webpack-dev-server",
+    "lint": "eslint index.js test.js",
     "pretest": "dist --name PowerSled --babel",
     "test": "ava"
   },
@@ -31,6 +32,12 @@
     "ava": "^1.2.0",
     "bootstrap": "^4.1.3",
     "css-loader": "^2.1.0",
+    "eslint": "^5.7.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
     "html-webpack-plugin": "^3.2.0",
     "mini-css-extract-plugin": "^0.5.0",
     "optimize-css-assets-webpack-plugin": "^5.0.0",
@@ -40,5 +47,15 @@
     "webpack": "^4.16.5",
     "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.1.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "eslint:recommended",
+      "standard"
+    ],
+    "globals": {
+      "PowerSled": true
+    }
   }
 }

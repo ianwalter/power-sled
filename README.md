@@ -16,8 +16,9 @@ yarn add @ianwalter/power-sled
 import PowerSled from '@ianwalter/power-sled'
 const sled = new PowerSled(document.myMenuLink, document.myMenu)
 
-// Add a event listener to close the menu if the user clicks anywhere on the
-// body while the menu is open.
+// Add an event listener on the body that calls the toggle method. power-sled
+// will figure out if it needs to open, close, or do nothing with the menu when
+// called.
 document.body.addEventListener('click', sled.toggle())
 ```
 
