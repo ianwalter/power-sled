@@ -39,6 +39,11 @@ export default {
 }
 ```
 
+## Related
+
+* [`@ianwalter/sled`][sledUrl] - A JavaScript micro-library for animating an
+  element's height to create a slide effect
+
 ## License
 
 Apache 2.0 with Commons Clause - See [LICENSE][licenseUrl]
@@ -47,5 +52,6 @@ Apache 2.0 with Commons Clause - See [LICENSE][licenseUrl]
 
 Created by [Ian Walter](https://iankwalter.com)
 
+[sledUrl]: https://github.com/ianwalter/sled
 [licenseUrl]: https://github.com/ianwalter/power-sled/blob/master/LICENSE
 
