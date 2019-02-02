@@ -5,7 +5,7 @@
 # Installation
 
 ```console
-npm install @ianwalter/power-sled --save
+yarn add @ianwalter/power-sled
 ```
 
 ## Usage
