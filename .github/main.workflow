@@ -1,7 +1,6 @@
 workflow "CI" {
   on = "push"
-  resolves = ["Lint", "Test"]
-  # Site once site code is refactored.
+  resolves = ["Lint", "Test"] # TODO: Add Build Site once code is refactored.
 }
 
 action "Install" {
