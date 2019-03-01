@@ -29,6 +29,11 @@ test('close on clicking other body element', withPage, async (t, page) => {
   t.is(await t.evaluate('./test/helpers/getHeight.js'), 0)
 })
 
+test('began open', withPage, async t => {
+  await t.evaluate('./test/helpers/beganOpen.js')
+  t.is(await t.evaluate('./test/helpers/getHeight.js'), 36)
+})
+
 test('target click close when menu began open', withPage, async (t, page) => {
   await t.evaluate('./test/helpers/beganOpen.js')
 

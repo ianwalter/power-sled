@@ -10,6 +10,7 @@ window.run(resolve => {
     Lorem ipsum is placeholder text commonly used in the graphic, print, and
     publishing industries for previewing layouts and visual mockups.
   `
+  p.style.height = 0
   document.body.appendChild(span)
   document.body.appendChild(a)
   document.body.appendChild(p)
