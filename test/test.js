@@ -1,10 +1,7 @@
 import test from 'ava'
 import puppeteerHelper from '@ianwalter/puppeteer-helper'
 
-const withPage = puppeteerHelper([
-  './node_modules/@ianwalter/sled/dist/sled.iife.js',
-  './dist/power-sled.iife.js'
-])
+const withPage = puppeteerHelper()
 
 test('toggle', withPage, async (t, page) => {
   await page.evaluate(() => {

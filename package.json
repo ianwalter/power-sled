@@ -70,9 +70,6 @@
     "extends": [
       "eslint:recommended",
       "standard"
-    ],
-    "globals": {
-      "PowerSled": true
-    }
+    ]
   }
 }

@@ -23,7 +23,7 @@ action "Test" {
 }
 
 action "Build Site" {
-  uses = "ianwalter/puppeteer@master"
+  uses = "ianwalter/puppeteer@v1.0.0"
   needs = ["Install"]
   runs = "yarn"
   args = "build:site"
