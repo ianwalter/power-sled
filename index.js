@@ -15,8 +15,7 @@ export default class PowerSled {
       const msMatches = target.msMatchesSelector &&
                         target.msMatchesSelector(this.linkSelector)
       const isLink = isSled && (matches || msMatches)
-      const isOpen = this.sled.isOpen || this.sled.beganOpen()
-      if ((!isSled || isLink) && (isTrigger || isOpen)) {
+      if ((!isSled || isLink) && (isTrigger || this.sled.isOpen)) {
         this.sled.toggle()
       }
     }
