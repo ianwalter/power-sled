@@ -1,6 +1,6 @@
 {
   "name": "@ianwalter/power-sled",
-  "version": "2.0.2",
+  "version": "3.0.0",
   "description": "A JavaScript micro-library for adding dropdown menu functionality to elements",
   "browser": "dist/power-sled.js",
   "main": "dist/power-sled.js",
