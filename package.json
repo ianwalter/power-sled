@@ -30,10 +30,10 @@
   ],
   "dependencies": {
     "@babel/runtime-corejs3": "^7.4.4",
-    "@ianwalter/sled": "^2.3.0"
+    "@ianwalter/sled": "^3.0.0"
   },
   "devDependencies": {
-    "@ianwalter/babel-preset-lib": "^1.2.0",
+    "@ianwalter/babel-preset-lib": "^2.0.2",
     "@ianwalter/dist": "^3.1.0",
     "@ianwalter/eslint-config": "^1.1.2",
     "@ianwalter/puppeteer-helper": "^4.0.0",
