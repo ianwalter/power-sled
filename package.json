@@ -2,13 +2,11 @@
   "name": "@ianwalter/power-sled",
   "version": "3.0.0",
   "description": "A JavaScript micro-library for adding dropdown menu functionality to elements",
-  "browser": "dist/power-sled.js",
-  "main": "dist/power-sled.js",
+  "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
-    "lint": "eslint index.js test",
-    "pretest": "dist --babel --no-cjs",
-    "test": "ava"
+    "lint": "eslint .",
+    "test": "bff"
   },
   "repository": {
     "type": "git",
@@ -26,20 +24,17 @@
   },
   "homepage": "https://github.com/ianwalter/power-sled#readme",
   "files": [
-    "dist"
+    "index.js"
   ],
   "dependencies": {
-    "@babel/runtime-corejs3": "^7.4.4",
-    "@ianwalter/sled": "^3.0.0"
+    "@ianwalter/sled": "^4.0.0"
   },
   "devDependencies": {
-    "@ianwalter/babel-preset-lib": "^2.0.2",
-    "@ianwalter/dist": "^4.0.0",
+    "@ianwalter/bff": "^6.3.1",
+    "@ianwalter/bff-puppeteer": "^1.2.0",
     "@ianwalter/eslint-config": "^2.0.1",
-    "@ianwalter/puppeteer-helper": "^4.0.0",
     "@ianwalter/renovate-config": "^1.1.0",
     "autoprefixer": "^9.6.0",
-    "ava": "^1.4.1",
     "bootstrap": "^4.3.1",
     "css-loader": "^2.1.1",
     "html-webpack-plugin": "^3.2.0",
@@ -54,9 +49,9 @@
     "webpack-dev-server": "^3.5.1"
   },
   "browserslist": "> 2%, not dead",
-  "babel": {
-    "presets": [
-      "@ianwalter/lib"
+  "bff": {
+    "plugins": [
+      "@ianwalter/bff-puppeteer"
     ]
   },
   "eslintConfig": {
@@ -65,6 +60,9 @@
       "@ianwalter"
     ]
   },
+  "eslintIgnore": [
+    "site/dist"
+  ],
   "renovate": {
     "extends": [
       "@ianwalter"
