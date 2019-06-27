@@ -54,7 +54,7 @@ test('target click close when menu began open', async ({ expect }) => {
 })
 
 test('body click close when menu began open', async ({ expect }) => {
-  const el = addTestElement()
+  addTestElement()
   document.querySelector('span').click()
   expect(document.querySelector('p').getBoundingClientRect().height).toBe(0)
 })
