@@ -164,10 +164,10 @@
   resolved "https://registry.yarnpkg.com/@ianwalter/renovate-config/-/renovate-config-1.2.0.tgz#f84e2fc56ad5d29c0876058c16c25db95baf74a9"
   integrity sha512-OSvziSdR0gxnWeH+9KbS9+HjojFa73vqNFU7wAxWs2ZV/9YofpKw0HwGtzyYgb1xVk8g6ZFPMYaTnFZ4Af6N/w==
 
-"@ianwalter/sled@^4.0.0":
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/@ianwalter/sled/-/sled-4.0.0.tgz#7f2fa29e9c6b13aa260bb88cb6a24267abfb254d"
-  integrity sha512-P0WQqM99JozHwtSCY3Paeogw0z4Fk1e/t/LDNvLwfJHm/MZ4okJ3yFRqZO34fKKkfkosUWyxDq2FWwfBION0Qg==
+"@ianwalter/sled@^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@ianwalter/sled/-/sled-5.0.0.tgz#ceacf975af7a34b8c4f1348d37646d85c699482b"
+  integrity sha512-wTPVQhgZvt02/hx7i0UMPqE0wDvy08ELEBcVlAvWF2g6uoC6EGWTTshdNMS1pAhSYm1XBpvgYXwyn+qTanOyfA==
 
 "@ianwalter/timer@^1.1.0":
   version "1.1.0"
